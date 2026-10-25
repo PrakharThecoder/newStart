@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Marks</title>
+
+    <style>
+    .hero {
+        text-align: center;
+        padding: 100px 20px;
+    }
+
+    .predict-btn {
+        display: inline-block;
+        padding: 15px 30px;
+        margin-top: 20px;
+        color: white;
+        background: linear-gradient(135deg, #2563eb, #9333ea);
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 12px;
+        transition: 0.3s ease;
+    }
+
+    .predict-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+        color: white;
+    }
+</style>
+</head>
+<body>
+<div class="hero">
+    <h1>Student Exam Performance Indicator</h1>
+    <p>Predict a student's Mathematics score using Machine Learning.</p>
+
+    <a href="{{ url_for('predict_page') }}" class="predict-btn">
+    Predict Your Maths Score →
+    </a>
+</div>
+</body>
+</html>
