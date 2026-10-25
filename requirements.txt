@@ -1,8 +1,7 @@
 pandas 
 numpy
 seaborn
-scikit-learn
-matplotlib
+scikit-learn==1.3.2matplotlib
 catboost
 xgboost
 dill
