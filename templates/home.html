@@ -509,11 +509,13 @@
                 </div>
 
                 <h3>
-                    {% if results is defined and results is not none %}
-                        {{ results }}
-                    {% else %}
-                        --
-                    {% endif %}
+                    {% if results is not none and results is defined %}
+                     <h3>Predicted Maths Score: {{ results }}</h3>
+                        {% endif %}
+
+                        {% if error_message %}
+                        <p>{{ error_message }}</p>
+                        {% endif %}
                 </h3>
             </section>
 
