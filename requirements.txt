@@ -29,7 +29,6 @@ matplotlib==3.7.5
 matplotlib-inline==0.1.7
 narwhals==1.42.1
 nest-asyncio==1.6.0
--e git+https://github.com/PrakharThecoder/newStart.git@d1db7381e2afb182e26b9978b4a9686ac8d386ef#egg=newstart
 numpy==1.24.4
 nvidia-nccl-cu12==2.32.3
 packaging==26.2
